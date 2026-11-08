@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="40" x2="430" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#43a67d"/><stop offset="1" stop-color="#175240"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbfdfb"/><stop offset="1" stop-color="#dcebe3"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="136" y="166" width="240" height="190" rx="28"/></clipPath>
+  </defs>
+  <circle cx="256" cy="256" r="256" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="238" fill="none" stroke="#fff" stroke-opacity=".14" stroke-width="6"/>
+  <g transform="rotate(-10 256 256)"><rect x="136" y="150" width="240" height="190" rx="28" fill="#fff" fill-opacity=".28"/></g>
+  <g transform="rotate(7 256 256)"><rect x="136" y="158" width="240" height="190" rx="28" fill="#fff" fill-opacity=".52"/></g>
+  <rect x="136" y="166" width="240" height="190" rx="28" fill="url(#sky)"/>
+  <g clip-path="url(#card)">
+    <circle cx="318" cy="218" r="22" fill="#f2b84b"/>
+    <path d="M120 372 L206 262 L252 318 L296 266 L392 372 Z" fill="#2f9570"/>
+    <path d="M120 372 L186 296 L226 340 L262 372 Z" fill="#1d6b4f"/>
+  </g>
+</svg>
